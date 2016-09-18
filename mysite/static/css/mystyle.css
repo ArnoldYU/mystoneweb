@@ -1,0 +1,656 @@
+.body{
+      margin:0 auto;
+      background: url(/static/img/psb.jpg) no-repeat top center;
+      font-size: 12px;
+      padding: 0 0 0 0px;
+    }
+    #head{
+    --  width: 1002px;
+      height: auto;
+      margin: 0 auto;
+      overflow: hidden;
+    }
+    .toplogo{
+      width:1002px;
+      height:114px;
+      position: relative;
+      margin: auto;
+    }
+    .toplogo-left{
+      color:black;
+      font-size:30px;
+      height: 80px;
+      line-height: 40px;
+      position: absolute;
+      width: 500px;
+    }
+    .toplog-left1{
+      color:gray;
+      font-size:13px;
+      position: absolute;
+      margin-top: 33px;
+      left:100px;
+    }
+    .toplog-left2{
+      position: absolute;
+      margin-top: 10px;
+      font-family: ��Բ;
+      font-weight: bold;
+      left:100px;
+    }
+    .toplogo-right{
+      position: absolute;
+      right:0px;
+      width: 500px;
+      height: 80px;
+    }
+    .toplogo-right1{
+      position: absolute;
+      right: 250px;
+      color: red;
+      margin: auto;
+      font-family: ��Բ;
+      margin-top: 10px;
+      font-size: 20px;
+    }
+    .toplogo-right2{
+      position:absolute;
+      right: 170px;
+      color :red;
+      font-size: 25px;
+      margin-top: 35px;
+    }
+    .top-menu{
+      text-align: center;
+      height: 49px;
+      padding: 0 0 0 0px;
+      margin: 0 auto;
+    }
+    .top-menu ul,li{
+      text-decoration: none;
+    }
+    .top-menua{
+      width: 1000px;
+      height: 90px;
+      margin: 0 auto;
+      float: none;
+    }
+    .top-menub{
+      float: left;
+      font-size: 14px;
+      font-weight: 700;
+      width: 104px;
+      height: 49px;
+      overflow: hidden;
+      line-height: 46px;
+    }
+    .top-menusub{
+      width: 1002px;
+      height: 35px;
+      margin: 0 auto;
+      padding: 0 0 0 0px;
+      text-align: center;
+    }
+    .top-menusub_b{
+      float: left;
+      padding: 0 0 0 0px;
+      display: inline;
+      width: 955px;
+      height: 35px;
+      line-height: 35px;
+      margin-left: 35px;
+    }
+    .m_gonggao{
+      color:#555;
+      float: left;
+      overflow: hidden;
+    }
+    .flash {
+      width: 992px;
+      height: 280px;
+      overflow: hidden;
+      margin-bottom: 5px;
+      padding: 5px 0 0 5px;
+    }
+    #h_centent{
+      background: #FFF;
+      width: 1002px;
+      height: auto;
+      margin: 0 auto;
+      overflow: hidden;
+      margin-top: 5px;
+    }
+    .hleft{
+      float: left;
+      width: 240px;
+      height: auto;
+      border: 1px solid #ddd;
+    }
+    .h_contact{
+      background: url(/static/img/con_titbg.jpg) no-repeat left top;
+      width: 240px;
+      height: auto;
+      float: left;
+      margin-bottom: 5px;
+    }
+    ul,li{
+      float: left;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    li {
+      display: list-item;
+      text-align: -webkit-match-parent;
+    }
+    h3 {
+      font-size: 14px;
+      margin: 0;
+      padding: 0;
+      float: left;
+    }
+    .h_contact_title {
+      background: url(/static/img/cont.jpg) no-repeat;
+      width: 240px;
+      height: 34px;
+      overflow: hidden;
+      line-height: 38px;
+    }
+    .h_contact_font {
+      float: left;
+      margin-left: 44px;
+      color: white;
+    }
+    .h_contact_more {
+      float: right;
+      display: inline;
+      margin-right: 35px;
+    }
+    .h_contact_c {
+      border: 1px solid #ddd;
+      background: url(/static/img/rightbg.jpg) no-repeat right bottom;
+      width: 218px;
+      line-height: 30px;
+      font-size: 14px;
+      padding: 10px 10px 10px;
+      float: right;
+    }
+    .h_contact_c1 {
+      font-family: Verdana, Geneva, sans-serif;
+      padding-bottom: 8px;
+      padding-top: 3px;
+    }
+    .h_contact_c1 p {
+      width: 218px;
+      background: url(/static/img/con_icon.jpg) no-repeat left 12px;
+      border-bottom: 1px solid #ddd;
+      margin: 0;
+      padding: 0;
+      text-indent: 15px;
+    }
+    .h_company {
+      float: left;
+      width: 752px;
+      height: auto;
+      overflow: hidden;
+    }
+    .h_companyT {
+      background: url("/static/img/pro_tit.jpg") left 34px;
+      width: 752px;
+      height: 34px;
+      overflow: hidden;
+      border: 1px solid #ddd;
+    }
+    .h_companyFont {
+      background: url("/static/img/com_titbg.jpg") left top no-repeat;
+      float: left;
+      margin-left: 48px;
+      color: white;
+    }
+    .h_companyT li {
+      height: 38px;
+      line-height: 38px;
+    }
+    .h_companyMore {
+      background: url("/static/img/com_titbg1.jpg") no-repeat right;
+      float: right;
+      padding-right: 15px;
+    }
+
+    .product_list {
+      float: left;
+      width: 240px;
+      font-family: 微软雅黑;
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      background: url("/static/img/plist_bg1.jpg") left bottom no-repeat;
+    }
+    .pro_title {
+      background: url("/static/img/plist_tit.jpg");
+      float: left;
+      width: 240px;
+      height: 33px;
+      line-height: 33px;
+      overflow: hidden;
+      border: 1px solid #ddd;
+    }
+    .pro_title_font {
+      float: left;
+      height: 33px;
+      line-height: 33px;
+      margin-left: 44px;
+      color: #FFF;
+    }
+    .pro_title_more {
+      float: right;
+      margin-right: 35px;
+    }
+    .por_content {
+      border-left: 1px solid #ddd;
+      border-right: 1px solid #ddd;
+      width: 230px;
+      padding: 9px 4px 15px;
+    }
+    .por_content_c1 {
+      background: url("/static/img/plist_bg.jpg") left top;
+      display: block;
+      font-size: 14px;
+      width: 230px;
+      height: 32px;
+      line-height: 32px;
+      margin-bottom: 2px;
+    }
+    .por_content_c1 a {
+      color: #333333;
+      font-weight: 700;
+      padding-left: 25px;
+    }
+    .h_newsl {
+      float: left;
+      display: inline;
+    }
+    .h_newsT {
+      background: url("/static/img/plist_tit.jpg") no-repeat top right;
+      width: 240px;
+      height: 34px;
+    }
+    .c_f00 {
+      color: #F00;
+      font-family: "Times New Roman", Times, serif;
+      font-size: 18px;
+    }
+    a {
+      text-decoration: none;
+      color: #000;
+    }
+
+    .h_newsFont {
+      float: left;
+      margin-left: 44px;
+      color: white;
+    }
+    .h_newsMore {
+      float: right;
+      margin-right: 35px;
+    }
+    .h_newsT li {
+      height: 34px;
+      line-height: 34px;
+    }
+    .h_newsC {
+      border-left: 1px solid #ddd;
+      border-right: 1px solid #ddd;
+      background: url("/static/img/rightbg.jpg") no-repeat right bottom;
+      width: 215px;
+      padding: 13px 14px 5px 11px;
+      float: left;
+    }
+    .h_newsimg1 {
+      background: url("/static/img/newsimg.jpg") left top;
+    }
+    .h_newsC_c {
+      background: url(/static/img/contacticon.gif) no-repeat left center;
+      border-bottom: 1px dashed #eee;
+      width: 230px;
+      height: 28px;
+      line-height: 28px;
+      text-indent: 15px;
+    }
+    .h_newsimg1, .h_newsimg2 {
+      width: 240px;
+      height: 52px;
+      overflow: hidden;
+      margin-bottom: 8px;
+      margin-left: -11px;
+    }
+    .about {
+      float: right;
+      width: 752px;
+      height: auto;
+      overflow: hidden;
+      margin-bottom: 10px;
+      border: 1px solid #ddd;
+    }
+    .h_company {
+      float: left;
+      width: 752px;
+      height: auto;
+      overflow: hidden;
+    }
+    .rongyu_conten {
+      width: 236px;
+      height: 160px;
+      display: inline;
+      float: left;
+      border: #d5d5d5 1px solid;
+      border-top: none;
+      padding: 3px;
+    }
+    script {
+      display: none;
+    }
+    .h_companyC {
+      background: url(/static/img/com_bg.jpg) no-repeat left bottom;
+      border-top: none;
+      width: 502px;
+      padding: 14px 0 15px;
+      float: right;
+    }
+    .h_com_c {
+      width: 470px;
+      float: left;
+      margin-left: 12px;
+      display: inline;
+    }
+    .h_product {
+      float: right;
+      width: 752px;
+      height: auto;
+      overflow: hidden;
+    }
+    .mbot10px {
+      margin-bottom: 10px;
+    }
+    .h_productT {
+      background: url(/static/img/pro_tit.jpg) no-repeat top left;
+      width: 752px;
+      height: 33px;
+      overflow: hidden;
+    }
+    .h_productT li {
+      height: 33px;
+      line-height: 33px;
+    }
+    .h_productFont {
+      float: left;
+      margin-left: 48px;
+      color: white;
+    }
+    .h_productMore {
+      float: right;
+      margin-right: 15px;
+    }
+    .h_productC {
+      background: url(/static/img/rightbg.jpg) no-repeat left bottom;
+      border-top: none;
+      width: 750px;
+      height: auto;
+      padding-bottom: 15px;
+      border: 1px solid #ddd;
+    }
+    .h_productC1 {
+      width: 175px;
+      height: 162px;
+      display: block;
+      float: left;
+      margin-left: 10px;
+      margin-top: 10px;
+      display: inline;
+      overflow: hidden;
+    }
+    .h_productC1 img {
+      border: 1px solid #e5e5e5; 
+      padding: 3px;
+      width: 167px;
+      height: 131px;
+      overflow: hidden;
+    }
+    .h_hot {
+      background: url(/static/img/hot_bg.jpg) no-repeat left bottom;
+      width: 752px;
+      height: auto;
+      margin-bottom: 10px;
+      overflow: hidden;
+      padding-bottom: 10px;
+      float: right;
+      border: 1px solid #ddd;
+    }
+    .h_hot_title {
+      background: url(/static/img/pro_tit.jpg);
+      border-left: 1px solid #ddd;
+      border-right: 1px solid #ddd;
+      border-top: 1px solid #ddd;
+      width: 750px;
+      height: 34px;
+      overflow: hidden;
+      line-height: 34px;
+    }
+    .h_hot_font {
+      background: url(/static/img/hot_tit.jpg) no-repeat left top;
+      width: 193px;
+      height: 34px;
+      overflow: hidden;
+      color: white;
+    }
+    .h_hot_more {
+      float: right;
+      margin-right: 20px;
+    }
+    .h_hot_c {
+      border-left: 1px solid #ddd;
+      border-right: 1px solid #ddd;
+      width: 970px;
+      height: auto;
+      overflow: hidden;
+      padding: 15px 15px 15px 15px;
+    }
+    element.style {
+      OVERFLOW: hidden;
+      WIDTH: 752px;
+      HEIGHT: 164px;
+    }
+    table[Attributes Style] {
+      border-top-width: 0px;
+      border-right-width: 0px;
+      border-bottom-width: 0px;
+      border-left-width: 0px;
+      border-spacing: 0px;
+    }
+    .h_hot_c1 {
+        background: url(/static/img/hot_cbg.jpg) no-repeat;
+        width: 187px;
+        height: 164px;
+        overflow: hidden;
+        margin: 0 10px 0 0;
+    }
+    .bottop {
+      width: 1002px;
+      height: 8px;
+      overflow: hidden;
+      margin: 10px auto 0;
+    }
+    #Bottom {
+      width: 100%;
+      overflow: hidden;
+      margin: 0 auto;
+    }
+    .bottomC {
+      background: url(/static/img/botbg.gif) no-repeat center center;
+      width: 1002px;
+      height: auto;
+      margin: 0 auto;
+      overflow: hidden;
+    }
+    .bottomLink {
+      background: url(/static/img/bot_tit.jpg);
+      font-size: 14px;
+      color: #FFF;
+      height: 33px;
+      width: 1002px;
+      line-height: 33px;
+      text-align: center;
+    }
+    .bottomLink1 {
+      font-family: "Times New Roman", Times, serif;
+      font-size: 14px;
+      color: #000;
+      height: auto;
+      width: 1002px;
+      line-height: 20px;
+      text-align: left;
+      padding: 20px 0 20px;
+    }
+    .p_product {
+      float: right;
+      width: 752px;
+      height: auto;
+      overflow: hidden;
+    }
+    .h_productFont {
+      float: left;
+      margin-left: 48px;
+      color: white;
+    }
+    .h_productMore {
+      float: right;
+      margin-right: 15px;
+    }
+    .p_productC {
+      border: 1px solid #cbcfd0;
+      border-top: none;
+      width: 720px;
+      height: auto;
+      padding: 15px;
+      overflow: hidden;
+    }
+    .p_productC1 {
+      font-size: 14px;
+      line-height: 25px;
+    }
+    .in_prdlistcon {
+      width: 302px;
+      height: 250px;
+      border: #c9c9c9 1px solid;
+      margin-left: 30px;
+      margin-right: 10px;
+      margin-bottom: 15px;
+      _display: inline;
+      float: left;
+      overflow: hidden;
+    }
+    .List_page {
+      width: 685px;
+      height: 26px;
+      line-height: 24px;
+      margin: 0 auto;
+    }
+    .List_page a {
+      float: left;
+      background: #eee;
+      margin: 0px 1px;
+      border: 1px solid #ddd;
+      color: #A0A0A0;
+      padding: 0 6px;
+    }
+    .List_page span {
+      float: left;
+      font-weight: 700;
+      margin: 0px 1px;
+      background: #eee;
+      color: #000;
+      border: 1px solid #ddd;
+      padding: 0 6px;
+    }
+    .p_productC1 p {
+    width: auto;
+    height: auto;
+    text-indent: 2em;
+    line-height: 26px;
+    padding: 0;
+    margin: 0 0 10px;
+}
+#preview {
+    float: none;
+    margin: 0 auto 15px;
+    padding: 0;
+    text-align: center;
+    width: 650px;
+    overflow: hidden;
+}
+.in_topprdlist_conten {
+    width: 680px;
+    border-bottom: #ccc 1px dashed;
+    line-height: 22px;
+    margin-left: 15px;
+    padding: 5px;
+    margin-bottom: 10px;
+    _display: inline;
+    float: left;
+}
+.List_page {
+    width: 685px;
+    height: 26px;
+    line-height: 24px;
+    margin: 0 auto;
+}
+.h_plist {
+    float: left;
+    width: 240px;
+    font-family: 寰蒋闆呴粦;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    background: url("/static/img/plist_bg1.jpg") left bottom no-repeat;
+}
+.h_plistT {
+    background: url(/static/img/images/plist_tit.jpg);
+    float: left;
+    width: 240px;
+    height: 43px;
+    line-height: 38px;
+    overflow: hidden;
+}
+.h_plistFont {
+    float: left;
+    height: 38px;
+    line-height: 38px;
+    color: #FFF;
+}
+.h_plistC {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    width: 230px;
+    padding: 9px 4px 0;
+}
+.h_plist_c {
+    background: url(/static/img/plist_bg.jpg) no-repeat left bottom;
+    display: block;
+    font-size: 14px;
+    width: 230px;
+    height: 34px;
+    line-height: 34px;
+    margin-bottom: 2px;
+}
+.h_plist_c a {
+    color: #555;
+    padding-left: 50px;
+}
+.h_hot_c1 img {
+    width: 175px;
+    height: 131px;
+    padding: 5px;
+}
+.rongyu_conten img{
+    width: 236px;
+    height: 160px;
+    padding: 0px;
+}

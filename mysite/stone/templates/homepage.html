@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>正鑫石材有限公司石家庄锈石批发处</title>
+    <link href="/static/css/mystyle.css" rel="stylesheet" type="text/css" />
+    <script language="JavaScript" src="/static/js/jquery.js">
+
+    </script>
+  </head>
+  <body class="body" >
+    {% include 'top.html' %}
+    <div id="h_centent">
+      {% include 'left_contect0.html' %}
+      <div class="about">
+        <div class="h_compony">
+          <ul class="h_companyT">
+            <li class="h_companyFont">
+              <h3>公司简介</h3>
+            </li>
+            <li class="h_companyMore">
+              <a href="" title="公司简介">查看更多</a>
+            </li>
+          </ul>
+          <ul class="rongyu_conten">
+            <script language="JavaScript">
+              var slidespeed=3000
+              var slideimages=new Array("/static/img/tiaozhuan/1.png","/static/img/tiaozhuan/2.png","/static/img/tiaozhuan/3.png")
+              var slidelinks=new Array("/","/","/")
+              var imageholder=new Array()
+              var ie55=window.createPopup
+              for (i=0;i<slideimages.length;i++){
+                imageholder[i]=new Image()
+                imageholder[i].src=slideimages[i]
+              }
+
+              function gotoshow(){
+                window.location=slidelinks[whichlink]
+              }
+            </script>
+            <a href="javascript:gotoshow()">
+              <img src="/static/img/tiaozhuan/1.png" name="slide" border="0" style="filter:progid:DXImageTransform.Microsoft.Pixelate(MaxSquare=15,Duration=1)">
+            </a>
+            <script language="JavaScript">
+            <!--
+            var whichlink=0
+            var whichimage=0
+            var pixeldelay=(ie55)? document.images.slide.filters[0].duration*1000 : 0
+            function slideit(){
+              if (!document.images) return
+
+              if (ie55)
+                document.images.slide.filters[0].apply()
+                document.images.slide.src=imageholder[whichimage].src
+              if (ie55)
+                document.images.slide.filters[0].play()
+                whichlink=whichimage
+                whichimage=(whichimage<slideimages.length-1)? whichimage+1 : 0
+                setTimeout("slideit()",slidespeed+pixeldelay)
+            }
+            slideit()
+            </script>
+          </ul>
+          <ul class="h_companyC h_box_c">
+            <li class="h_com_c">
+              <div>
+	               &nbsp;&nbsp;  福建正鑫石材石家庄经销处处于石家庄市长安区北外环古城东路鑫顺石材市场，生产厂区占地200亩，公司拥有大型黄金麻矿山，矿山面积1000多亩，年产荒料20万立方米，年产各类花岗岩板材200万平方米。是一家集矿山开采、石材加工、销售为一体的大型石材企业。&nbsp;
+                 <br>
+                 &nbsp;&nbsp;&nbsp;公司现拥有国内最先进的花岗岩开采设备5台套，石材加工、精加工设备20套，各种运输机械30台套和各类专业技术人员200余人。主要产品销往北京、天津、上海、重庆、成都、武汉等全国各大中等城市，深受用户信懒和好评。&nbsp;
+                 <br>
+                 &nbsp;&nbsp;&nbsp;公司秉持“以人为本，互利双赢&nbsp;，品质至上，诚信发展”的经营理念，以精良的设备，诚实的经营作风，竭诚为国内外各项重大工程及同行提供精良的产品和优质的服务，热诚欢迎各界&nbsp;朋友前来订购洽谈。
+                 <br>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      {% include 'list_cpzs.html' %}
+      {% include 'list_gundong.html' %}
+    </div>
+    <div class="bottop"></div>
+    {% include 'bottom.html' %}
+  </body>
+</html>

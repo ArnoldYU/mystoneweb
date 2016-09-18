@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>正鑫石材有限公司石家庄锈石批发处</title>
+    <link href="/static/css/mystyle.css" rel="stylesheet" type="text/css" /> 
+  </head>
+  <body class="body" >
+    {% include 'top.html' %}
+    <div id="h_centent">
+      {% include 'left_contect.html' %}
+      <div class="p_product">
+        <ul class="h_productT">
+          <li class="h_productFont"><h3>产品筛选</h3></li>
+            <li class="h_productMore">※&nbsp;当前位置：首页 - <strong>留言反馈</strong></li>
+        </ul>
+        <ul class="p_productC h_box_c">
+          <li class="p_productC1"><strong>留言板</strong>：
+            <strong>
+  	          <form onsubmit="return checkbook(this);" method="post">
+  		          <dt class="inputfeeckback">留言主题：<input name="theme" type="text" size="56"></dt>
+  					    <dt class="inputfeeckback">留言内容：<textarea name="content" class="inputs"></textarea></dt>
+  		          <dt class="inputfeeckback">姓　　名：<input name="name" size="12" type="text" class="input" maxlength="10" value="匿名" onfocus="if(this.value=='匿名')this.value=''" onblur="if(this.value=='')this.value='匿名'">　
+                <dt class="inputfeeckback">手机号码：<input name="phone" type="text" id="phone" size="12">　　<input class="vote_bnt" value="提 交" type="submit" > <span id="showmsg"></span></dt>
+  	          </form>
+              <div style=" border:1px solid #ddd; padding:5px; color:#F00;">暂无留言信息!
+              </div>
+  		        <div class="List_page">
+              </div>
+            </strong>
+          </li>
+        </ul>
+      </div>
+    </div>
+    {% include 'bottom.html' %}
+  </body>
+</html>

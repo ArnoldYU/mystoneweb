@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>正鑫石材有限公司石家庄锈石批发处</title>
+    <link href="/static/css/mystyle.css" rel="stylesheet" type="text/css" /> 
+  </head>
+  <body class="body" >
+    {% include 'top.html' %}
+    <div id="h_centent">
+      {% include 'left_contect.html' %}
+      <div class="p_product">
+        <ul class="h_productT">
+          <li class="h_productFont"><h3>产品筛选</h3></li>
+            <li class="h_productMore">※&nbsp;当前位置：首页 - <strong>查看留言</strong></li>
+        </ul>
+        <ul class="p_productC h_box_c">
+          <li class="p_productC1"><strong>留言板</strong>：
+            <strong>
+              {%for note in notes%}
+  	          <form onsubmit="return checkbook(this);">
+  		          <dt class="inputfeeckback">留言主题：<span style="font-size:8px">{{note.theme}}</span></dt>
+  					    <dt class="inputfeeckback">留言内容：<span style="font-size:8px">{{note.content}}</span></dt>
+  		          <dt class="inputfeeckback">姓　　名：<span style="font-size:8px">{{note.name}}</span></dt>
+                <dt class="inputfeeckback">手机号码：<span style="font-size:8px">{{note.phone}}</span>
+                <dt class="inputfeeckback">时间：<span style="font-size:8px">{{note.datetime}}</span>
+                <a href="/delete/{{note.id}}">删除</a> <span id="showmsg"></span></dt>
+  	          </form>
+              {%endfor%}
+              {%if note in notes%}
+              <div style=" border:1px solid #ddd; padding:5px; color:#F00;">暂无留言信息!
+              </div>
+              {%endif%}
+  		        <div class="List_page">
+              </div>
+            </strong>
+          </li>
+        </ul>
+      </div>
+    </div>
+    {% include 'bottom.html' %}
+  </body>
+</html>

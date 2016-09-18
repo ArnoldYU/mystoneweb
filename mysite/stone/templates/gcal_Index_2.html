@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>产品筛选_正鑫石材有限公司石家庄锈石批发处</title>
+    <link href="/static/css/mystyle.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body class="body" >
+    {% include 'top.html' %}
+    <div id="h_centent">
+      {% include 'left_contect.html' %}
+      <div class="p_product">
+        <ul class="h_productT">
+          <li class="h_productFont"><h3>产品筛选</h3></li>
+            <li class="h_productMore">※&nbsp;当前位置：首页 - 产品中心 - <strong>工程案例</strong></li>
+        </ul>
+        <ul class="p_productC h_box_c">
+          <li class="p_productC1">
+            {% include 'list.html' %}
+            <div class="List_page"><a>总数：13</a><a href="/gcal_Index_1">上一页</a><a href="/gcal_Index_1">1</a><span>2</span><a href="/gcal_Index_3">3</a><a href="/gcal_Index_3">下一页</a><a>页次：2/3</a></div></li>
+        </ul>
+      </div>
+    </div>
+    {% include 'bottom.html' %}
+  </body>
+</html>
